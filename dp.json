@@ -1,6 +1,7 @@
 {
     "fornecedores": [
         {
+            "id": "00001",
             "nome": "Original Food",
             "endereco": "Rua Fake do food, 123",
             "telefone": "(11) 9 7897-5678"
@@ -8,6 +9,7 @@
     ],
     "clientes": [
         {
+            "id": "00001",
             "nome": "Comedor de Pizza",
             "endereco": "Avenida Brasil de Portugal, 789",
             "telefone": "(11) 9 8990-9099"
@@ -15,6 +17,7 @@
     ],
     "produtos": [
         {
+            "id": "00001",
             "nome": "Tomate Italiano",
             "fornecedor": {
                 "nome": "Tomateiro da esquina",
@@ -26,11 +29,13 @@
     "pedidos": [
         {
             "cliente": {
+                "id": "00001",
                 "nome": "Comedor de Pizza",
                 "endereco": "Avenida Brasil de Portugal, 789",
                 "telefone": "(11) 9 8990-9099"
             },
             "produto": {
+                "id": "00001",
                 "nome": "Tomate Italiano",
                 "fornecedor": {
                     "nome": "Tomateiro da esquina",
