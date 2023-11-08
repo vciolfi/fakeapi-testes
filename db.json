@@ -24,6 +24,7 @@
     "cardapio": [
         {
             "id": 0,
+            "ativo": true,
             "nome": "Pizza Mussarela",
             "ingredientes": [
                 {
