@@ -29,7 +29,36 @@
             "telefone": "(11) 9 8450-9099"
         }
     ],
-    "produtos": [
+    "cardapio": [
+        {
+            "id": 0,
+            "nome": "Pizza Mussarela",
+            "ingredientes": [
+                {
+                    "id": 0,
+                    "quantidade": 10,
+                    "nome": "Tomate Italiano",
+                    "fornecedor": {
+                        "nome": "Tomateiro da esquina",
+                        "endereco": "Rua do Tomate, 999",
+                        "telefone": "(11) 9 8989-9898"
+                    }
+                },
+                {
+                    "id": 3,
+                    "quantidade": 100,
+                    "medida": "kg",
+                    "nome": "Queijo Mussarela",
+                    "fornecedor": {
+                        "nome": "Queijeiro",
+                        "endereco": "Rua do Queijo, 950",
+                        "telefone": "(11) 9 8989-9828"
+                    }
+                }
+            ]
+        }
+    ],
+    "estoque": [
         {
             "id": 0,
             "quantidade": 10,
@@ -59,6 +88,17 @@
                 "endereco": "Rua do Tomate, 999",
                 "telefone": "(11) 9 8989-9898"
             }
+        },
+        {
+            "id": 3,
+            "quantidade": 100,
+            "medida": "kg",
+            "nome": "Queijo Mussarela",
+            "fornecedor": {
+                "nome": "Queijeiro",
+                "endereco": "Rua do Queijo, 950",
+                "telefone": "(11) 9 8989-9828"
+            }
         }
     ],
     "pedidos": [
@@ -71,26 +111,33 @@
                 "endereco": "Avenida Brasil de Portugal, 789",
                 "telefone": "(11) 9 8990-9099"
             },
-            "produtos": [
+            "sacola": [
                 {
                     "id": 0,
-                    "quantidade": 2,
-                    "nome": "Tomate Italiano",
-                    "fornecedor": {
-                        "nome": "Tomateiro da esquina",
-                        "endereco": "Rua do Tomate, 999",
-                        "telefone": "(11) 9 8989-9898"
-                    }
-                },
-                {
-                    "id": 1,
-                    "nome": "Azeitona Preta",
-                    "quantidade": 5,
-                    "fornecedor": {
-                        "nome": "Casa da azeitona",
-                        "endereco": "Rua do Azeitona, 899",
-                        "telefone": "(11) 9 8585-9898"
-                    }
+                    "nome": "Pizza Mussarela",
+                    "ingredientes": [
+                        {
+                            "id": 0,
+                            "quantidade": 10,
+                            "nome": "Tomate Italiano",
+                            "fornecedor": {
+                                "nome": "Tomateiro da esquina",
+                                "endereco": "Rua do Tomate, 999",
+                                "telefone": "(11) 9 8989-9898"
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "quantidade": 100,
+                            "medida": "kg",
+                            "nome": "Queijo Mussarela",
+                            "fornecedor": {
+                                "nome": "Queijeiro",
+                                "endereco": "Rua do Queijo, 950",
+                                "telefone": "(11) 9 8989-9828"
+                            }
+                        }
+                    ]
                 }
             ]
         },  
