@@ -26,13 +26,24 @@
     "produtos": [
         {
             "id": 0,
+            "quantidade": 10,
             "nome": "Tomate Italiano",
             "fornecedor": {
                 "nome": "Tomateiro da esquina",
                 "endereco": "Rua do Tomate, 999",
                 "telefone": "(11) 9 8989-9898"
             }
-        }
+        },
+        {
+            "id": 1,
+            "quantidade": 20,
+            "nome": "Azeitona Preta",
+            "fornecedor": {
+                "nome": "Casa da azeitona",
+                "endereco": "Rua do Azeitona, 899",
+                "telefone": "(11) 9 8585-9898"
+            }
+        }       
     ],
     "pedidos": [
         {
@@ -46,6 +57,7 @@
             "produtos": [
                 {
                     "id": 0,
+                    "quantidade": 2,
                     "nome": "Tomate Italiano",
                     "fornecedor": {
                         "nome": "Tomateiro da esquina",
@@ -56,6 +68,7 @@
                 {
                     "id": 1,
                     "nome": "Azeitona Preta",
+                    "quantidade": 5,
                     "fornecedor": {
                         "nome": "Casa da azeitona",
                         "endereco": "Rua do Azeitona, 899",
