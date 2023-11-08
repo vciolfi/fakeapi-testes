@@ -1,4 +1,12 @@
 {
+    "usuario": [
+        {
+            "id": 0,
+            "username": "teste",
+            "email": "teste@teste.com",
+            "password": "12345678"
+        }
+    ],    
     "fornecedores": [
         {
             "id": 0,
