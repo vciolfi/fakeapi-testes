@@ -43,15 +43,26 @@
                 "endereco": "Avenida Brasil de Portugal, 789",
                 "telefone": "(11) 9 8990-9099"
             },
-            "produto": {
-                "id": 0,
-                "nome": "Tomate Italiano",
-                "fornecedor": {
-                    "nome": "Tomateiro da esquina",
-                    "endereco": "Rua do Tomate, 999",
-                    "telefone": "(11) 9 8989-9898"
+            "produtos": [
+                {
+                    "id": 0,
+                    "nome": "Tomate Italiano",
+                    "fornecedor": {
+                        "nome": "Tomateiro da esquina",
+                        "endereco": "Rua do Tomate, 999",
+                        "telefone": "(11) 9 8989-9898"
+                    }
+                },
+                {
+                    "id": 1,
+                    "nome": "Azeitona Preta",
+                    "fornecedor": {
+                        "nome": "Casa da azeitona",
+                        "endereco": "Rua do Azeitona, 899",
+                        "telefone": "(11) 9 8585-9898"
+                    }
                 }
-            }
+            ]
         }
     ]
 }
