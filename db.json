@@ -21,6 +21,12 @@
             "nome": "Comedor de Pizza",
             "endereco": "Avenida Brasil de Portugal, 789",
             "telefone": "(11) 9 8990-9099"
+        },
+        {
+            "id": 1,
+            "nome": "José",
+            "endereco": "Rua Perdida, 719",
+            "telefone": "(11) 9 8450-9099"
         }
     ],
     "produtos": [
@@ -43,7 +49,17 @@
                 "endereco": "Rua do Azeitona, 899",
                 "telefone": "(11) 9 8585-9898"
             }
-        }       
+        },
+        {
+            "id": 2,
+            "quantidade": 2,
+            "nome": "Pizza de Calabresa",
+            "fornecedor": {
+                "nome": "Tomateiro da esquina",
+                "endereco": "Rua do Tomate, 999",
+                "telefone": "(11) 9 8989-9898"
+            }
+        }
     ],
     "pedidos": [
         {
@@ -79,17 +95,17 @@
             ]
         },  
         {
-            "id": 0,
+            "id": 1,
             "data": "05/11/2023",
             "cliente": {
-                "id": 0,
+                "id": 1,
                 "nome": "José",
                 "endereco": "Rua Perdida, 719",
                 "telefone": "(11) 9 8450-9099"
             },
             "produtos": [
                 {
-                    "id": 0,
+                    "id": 2,
                     "quantidade": 2,
                     "nome": "Pizza de Calabresa",
                     "fornecedor": {
